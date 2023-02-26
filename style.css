@@ -1,5 +1,8 @@
-@import url('./Fonts/Agrandir-Regular.otf');
-
+/* @import url('./Fonts/Agrandir-Regular.otf'); */
+@font-face {
+    font-family: 'agrandir';
+    src:url('./Fonts/Agrandir-Regular.otf') format("truetype");
+}
 body{
     margin: 0;
     padding: 0;
@@ -26,6 +29,7 @@ a{
     top: 0;
     margin: 0;
     padding: 0;
+    
 }
 
 .container-all{
@@ -35,9 +39,9 @@ a{
     align-items: center;
 }
 .logoAmbulante{
-    width: 40vw;
+    width: 30vw;
     height: 50%;
-    padding-left: 15px;
+    
 }
 
 .posLogo{
@@ -54,8 +58,28 @@ a{
 }
 
 .container{
-    max-width: 100%;
-    
+    max-width: 100%;   
+}
+
+.conteinerTablas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentTabla{
+    display: flex;
+    width: 100vw;
+}
+
+.col-precio{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.col{
+    padding: 30px;
 }
 
 p{
@@ -94,7 +118,9 @@ p{
     padding-bottom: 10px;
 }
 
-
+.img-pages{
+    width: 15vw;
+}
 
 .img-cards{
     width: 60w;
@@ -205,7 +231,7 @@ p{
 
         div.col{
             width: 100vw;
-            padding: 15px;
+            padding-top: 30px;
         }
 
         .col-precio{
