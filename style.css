@@ -165,7 +165,7 @@ p{
         }
 
         .img-cards{
-            width: 20vw;
+           
             height: 10vh;
         }
 
@@ -201,6 +201,7 @@ p{
 
         div.col{
             width: 100vw;
+            padding: 7px;
         }
 
         .col-precio{
@@ -223,5 +224,13 @@ p{
         .texto-presentacion{
             padding: 40px;
             text-align: center;
+        }
+
+        .redes{
+            font-size: 15px;
+        }
+
+        .descripcion-size{
+            font-size: 13px;
         }
  }
