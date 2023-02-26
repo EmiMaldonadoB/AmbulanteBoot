@@ -169,6 +169,10 @@ p{
             height: 10vh;
         }
 
+        .img-pages{
+            width: 20vw;
+        }
+
         .card-body{
             padding: 0;
         }
