@@ -149,7 +149,11 @@ p{
 
  /************* MEDIA QUERIS    *******************/
 
- @media screen and (max-width: 412px) {
+ @media screen and (max-width: 414px) {
+
+        .logoAmbulante{
+            width: 90vw;
+        }
         .card-style{
             width: 30vw;
             height: 20vh;
@@ -163,7 +167,13 @@ p{
         .card-body{
             padding: 0;
         }
-
+        .div-cards{
+            padding: 10px;
+        }
+        .titulos{
+            margin: 0;
+            padding: 20px;
+        }
 
 
  }
