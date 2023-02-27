@@ -223,9 +223,47 @@ p{
 
 
 
+ @media screen and  (max-width: 712px){
+        
 
+        .card-style{
+            width: 30vw;
+            height: 30vh;
+        }
 
- @media screen and (min-width: 381px)  and  (max-width: 414px){
+        .img-cards {
+            height: 15vh;
+            width: 100%;
+        }
+
+        .logoAmbulante {
+            width: 90vw;
+            height: 50%;
+            padding-left: 10px;
+        }
+
+        .div-cards {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .contentTabla {
+            display: flex;
+            width: 100vw;
+            font-size: 15px;
+        }
+
+        .adic-size{
+            font-size: 12px;
+        }
+ }
+
+ @media screen and (max-width: 414px){
 
         body{
             width: 100%;
@@ -237,12 +275,13 @@ p{
         }
         .card-style{
             width: 30vw;
-            height: 20vh;
+           
         }
 
         .img-cards{
-           
-            height: 10vh;
+            
+                height: 15vh;
+                width: 100%;
         }
 
         .img-pages{
@@ -328,7 +367,7 @@ p{
 
  @media screen and (max-width: 380px ){
     .img-cards{
-        width: 25vw;
+        
         height: 15vh;
         
     }
@@ -342,7 +381,7 @@ p{
     }
 
     .card-text{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .position-image{
