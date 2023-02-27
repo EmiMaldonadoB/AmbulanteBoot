@@ -221,6 +221,10 @@ p{
 
  /************* MEDIA QUERIS    *******************/
 
+
+
+
+
  @media screen and (max-width: 414px) {
 
         body{
@@ -320,4 +324,37 @@ p{
             border-radius: 50%;
             animation: loading 1s ease infinite;
         }
+ }
+
+ @media screen and (max-width: 320px ){
+    .img-cards{
+        width: 25vw;
+        height: 15vh;
+        
+    }
+
+    .presentacion-style {
+        font-size: 15px;
+    }
+    .card-style{
+        width: 30vw;
+        height: 27vh;
+    }
+
+    .card-text{
+        font-size: 10px;
+    }
+
+    .position-image{
+        position: relative;
+    }
+
+    .container{
+        font-size: 15px;
+    }
+
+    .container{
+        font-size: 10px;
+    }
+    
  }
