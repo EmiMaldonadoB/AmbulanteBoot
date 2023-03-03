@@ -262,6 +262,10 @@ p{
         .adic-size{
             font-size: 12px;
         }
+
+        .footer {
+            margin-top: 10%;
+        }
  }
 
  @media screen and (max-width: 423px){
@@ -341,8 +345,10 @@ p{
         }
 
         .footer{
+           
+            position: relative;
             bottom: 0;
-            margin-top: 6%;
+            padding-top: 10px;
         }
 
 
