@@ -216,6 +216,10 @@ p{
     padding: 25px;
  }
 
+ .pos-fixed{
+    position: fixed;
+}
+
 
 
 
