@@ -228,7 +228,7 @@ p{
 
         .card-style{
             width: 30vw;
-            height: 30vh;
+            height: 25vh;
             box-sizing: content-box;
         }
 
@@ -264,7 +264,7 @@ p{
         }
  }
 
- @media screen and (max-width: 414px){
+ @media screen and (max-width: 423px){
 
         
 
