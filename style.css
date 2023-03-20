@@ -144,10 +144,12 @@ p{
 
 .card-style{
     width: 20vw;
+    height: 40vh;
     margin: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: flex-end;
     padding: 10px;
     border: 0.5px solid #727124;
     border-radius: 1.5px;
@@ -174,6 +176,10 @@ p{
     opacity: 0.9;
 }
 
+.txtTostones{
+    padding-top: 10px;
+}
+
 
 
 /** FOOTER **/
@@ -187,6 +193,10 @@ p{
     margin-top: 30px;
 }
 
+.tostones{
+   
+    height: 15vh;
+}
 
 
 .redes{
@@ -264,6 +274,11 @@ p{
             font-size: 15px;
         }
 
+        .tostones{
+            width: 20vw;
+            height: 15vh;
+        }
+
         .adic-size{
             font-size: 12px;
         }
@@ -304,6 +319,12 @@ p{
 
         .img-pages{
             width: 20vw;
+        }
+
+        .tostones{
+            width: 25vw;
+            height: 9vh;
+            margin-bottom: 15px;
         }
 
         .card-body{
@@ -407,6 +428,10 @@ p{
         position: relative;
     }
 
+    .tostones{
+        width: 25vw;
+        height: 12vh;
+    }
     .container{
         font-size: 15px;
     }
