@@ -144,7 +144,7 @@ p{
 
 .card-style{
     width: 20vw;
-    height: 40vh;
+    height: 50vh;
     margin: 15px;
     display: flex;
     align-items: center;
@@ -176,9 +176,7 @@ p{
     opacity: 0.9;
 }
 
-.txtTostones{
-    padding-top: 10px;
-}
+
 
 
 
@@ -324,7 +322,8 @@ p{
         .tostones{
             width: 25vw;
             height: 9vh;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            
         }
 
         .card-body{
@@ -430,7 +429,8 @@ p{
 
     .tostones{
         width: 25vw;
-        height: 12vh;
+        height: 10vh;
+        margin-bottom: 20px;
     }
     .container{
         font-size: 15px;
