@@ -189,6 +189,7 @@ p{
     background-color: rgba(114, 113, 36, 0.3);
     border: 1px dotted #727124;
     margin-top: 30px;
+    bottom: 0%;
 }
 
 .tostones{
@@ -367,6 +368,7 @@ p{
             align-items: center;
             padding: 8px;
             font-size: 15px;
+            min-height: 50vh;
         }
 
         div.col{
@@ -387,6 +389,7 @@ p{
 
         .footer{
             margin-top: 15%;
+            bottom: 0%;
           
         }
 
